@@ -9,8 +9,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.VBox;
-import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -26,7 +24,10 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        //getClass() - get what class created this instamce
+        //getResource() - works like a file system
+        // start of the absolute path of /fxml we dont need a name because its the root
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/sample.fxml"));
 
 
 
