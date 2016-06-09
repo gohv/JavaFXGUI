@@ -1,0 +1,23 @@
+.root {
+    -fx-font-family: DejaVu Serif Bold;
+    -fx-alignment: center;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+.title {
+    -fx-font-size: 50px;
+    -fx-fill: AQUA;
+}
+
+.text-field {
+    -fx-font-family: Italic;
+}
+
+#nameField {
+
+    -fx-background-color: yellow;
+    -fx-font-family: Impact;
+
+
+}
